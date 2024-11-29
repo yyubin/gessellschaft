@@ -3,14 +3,14 @@
 @tailwind utilities;
 
 :root {
-  --background: #ffffff;
-  --foreground: #171717;
+  --background: #000000; /* 기본 배경은 검정색 */
+  --foreground: #ffffff; /* 기본 글씨 색은 흰색 */
 }
 
 @media (prefers-color-scheme: dark) {
   :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
+    --background: #0a0a0a; /* 어두운 모드 배경 */
+    --foreground: #ededed; /* 어두운 모드 글씨 색 */
   }
 }
 
